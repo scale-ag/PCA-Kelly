@@ -1,19 +1,19 @@
 {
-  "gerado_em": "02/11/2026 07:02",
-  "hoje": "2026-11-02",
+  "gerado_em": "03/11/2026 07:07",
+  "hoje": "2026-11-03",
   "periodo_dados": {
     "de": "2026-10-22",
-    "ate": "2026-10-23"
+    "ate": "2026-11-02"
   },
   "metas": {
     "cac": 0.0,
     "roas": 0.0
   },
-  "ticket_medio_geral": null,
+  "ticket_medio_geral": 47.0,
   "periodos": {
     "hoje": {
-      "de": "2026-11-02",
-      "ate": "2026-11-02",
+      "de": "2026-11-03",
+      "ate": "2026-11-03",
       "total": {
         "gasto": 0.0,
         "impr": 0.0,
@@ -61,16 +61,16 @@
       "piores_anuncios": []
     },
     "ontem": {
-      "de": "2026-11-01",
-      "ate": "2026-11-01",
+      "de": "2026-11-02",
+      "ate": "2026-11-02",
       "total": {
         "gasto": 0.0,
         "impr": 0.0,
         "cliques": 0.0,
         "pv": 0.0,
         "ck": 0.0,
-        "vendas": 0,
-        "fat": 0.0,
+        "vendas": 1,
+        "fat": 47.0,
         "cpm": null,
         "ctr": null,
         "cpc": null,
@@ -80,9 +80,9 @@
         "vischk": null,
         "convchk": null,
         "convlp": null,
-        "cac": null,
+        "cac": 0.0,
         "roas": null,
-        "ticket": null
+        "ticket": 47.0
       },
       "ads": {
         "gasto": 0.0,
@@ -90,8 +90,8 @@
         "cliques": 0.0,
         "pv": 0.0,
         "ck": 0.0,
-        "vendas": 0,
-        "fat": 0.0,
+        "vendas": 1,
+        "fat": 47.0,
         "cpm": null,
         "ctr": null,
         "cpc": null,
@@ -101,25 +101,48 @@
         "vischk": null,
         "convchk": null,
         "convlp": null,
-        "cac": null,
+        "cac": 0.0,
         "roas": null,
-        "ticket": null
+        "ticket": 47.0
       },
-      "campanhas": [],
+      "campanhas": [
+        {
+          "nome": "PCA | E4-VEN | P2-FRIO | ABO | 2026-10-22 | Aberto ADV",
+          "gasto": 0.0,
+          "impr": 0.0,
+          "cliques": 0.0,
+          "pv": 0.0,
+          "ck": 0.0,
+          "vendas": 1,
+          "fat": 47.0,
+          "cpm": null,
+          "ctr": null,
+          "cpc": null,
+          "cpv": null,
+          "cr": null,
+          "cpic": null,
+          "vischk": null,
+          "convchk": null,
+          "convlp": null,
+          "cac": 0.0,
+          "roas": null,
+          "ticket": 47.0
+        }
+      ],
       "top_anuncios": [],
       "piores_anuncios": []
     },
     "3d": {
-      "de": "2026-10-31",
-      "ate": "2026-11-02",
+      "de": "2026-11-01",
+      "ate": "2026-11-03",
       "total": {
         "gasto": 0.0,
         "impr": 0.0,
         "cliques": 0.0,
         "pv": 0.0,
         "ck": 0.0,
-        "vendas": 0,
-        "fat": 0.0,
+        "vendas": 1,
+        "fat": 47.0,
         "cpm": null,
         "ctr": null,
         "cpc": null,
@@ -129,9 +152,9 @@
         "vischk": null,
         "convchk": null,
         "convlp": null,
-        "cac": null,
+        "cac": 0.0,
         "roas": null,
-        "ticket": null
+        "ticket": 47.0
       },
       "ads": {
         "gasto": 0.0,
@@ -139,8 +162,8 @@
         "cliques": 0.0,
         "pv": 0.0,
         "ck": 0.0,
-        "vendas": 0,
-        "fat": 0.0,
+        "vendas": 1,
+        "fat": 47.0,
         "cpm": null,
         "ctr": null,
         "cpc": null,
@@ -150,25 +173,48 @@
         "vischk": null,
         "convchk": null,
         "convlp": null,
-        "cac": null,
+        "cac": 0.0,
         "roas": null,
-        "ticket": null
+        "ticket": 47.0
       },
-      "campanhas": [],
+      "campanhas": [
+        {
+          "nome": "PCA | E4-VEN | P2-FRIO | ABO | 2026-10-22 | Aberto ADV",
+          "gasto": 0.0,
+          "impr": 0.0,
+          "cliques": 0.0,
+          "pv": 0.0,
+          "ck": 0.0,
+          "vendas": 1,
+          "fat": 47.0,
+          "cpm": null,
+          "ctr": null,
+          "cpc": null,
+          "cpv": null,
+          "cr": null,
+          "cpic": null,
+          "vischk": null,
+          "convchk": null,
+          "convlp": null,
+          "cac": 0.0,
+          "roas": null,
+          "ticket": 47.0
+        }
+      ],
       "top_anuncios": [],
       "piores_anuncios": []
     },
     "7d": {
-      "de": "2026-10-27",
-      "ate": "2026-11-02",
+      "de": "2026-10-28",
+      "ate": "2026-11-03",
       "total": {
         "gasto": 0.0,
         "impr": 0.0,
         "cliques": 0.0,
         "pv": 0.0,
         "ck": 0.0,
-        "vendas": 0,
-        "fat": 0.0,
+        "vendas": 1,
+        "fat": 47.0,
         "cpm": null,
         "ctr": null,
         "cpc": null,
@@ -178,9 +224,9 @@
         "vischk": null,
         "convchk": null,
         "convlp": null,
-        "cac": null,
+        "cac": 0.0,
         "roas": null,
-        "ticket": null
+        "ticket": 47.0
       },
       "ads": {
         "gasto": 0.0,
@@ -188,8 +234,8 @@
         "cliques": 0.0,
         "pv": 0.0,
         "ck": 0.0,
-        "vendas": 0,
-        "fat": 0.0,
+        "vendas": 1,
+        "fat": 47.0,
         "cpm": null,
         "ctr": null,
         "cpc": null,
@@ -199,25 +245,48 @@
         "vischk": null,
         "convchk": null,
         "convlp": null,
-        "cac": null,
+        "cac": 0.0,
         "roas": null,
-        "ticket": null
+        "ticket": 47.0
       },
-      "campanhas": [],
+      "campanhas": [
+        {
+          "nome": "PCA | E4-VEN | P2-FRIO | ABO | 2026-10-22 | Aberto ADV",
+          "gasto": 0.0,
+          "impr": 0.0,
+          "cliques": 0.0,
+          "pv": 0.0,
+          "ck": 0.0,
+          "vendas": 1,
+          "fat": 47.0,
+          "cpm": null,
+          "ctr": null,
+          "cpc": null,
+          "cpv": null,
+          "cr": null,
+          "cpic": null,
+          "vischk": null,
+          "convchk": null,
+          "convlp": null,
+          "cac": 0.0,
+          "roas": null,
+          "ticket": 47.0
+        }
+      ],
       "top_anuncios": [],
       "piores_anuncios": []
     },
     "14d": {
-      "de": "2026-10-20",
-      "ate": "2026-11-02",
+      "de": "2026-10-21",
+      "ate": "2026-11-03",
       "total": {
         "gasto": 83.23,
         "impr": 1943.0,
         "cliques": 58.0,
         "pv": 43.0,
         "ck": 0.0,
-        "vendas": 0,
-        "fat": 0.0,
+        "vendas": 1,
+        "fat": 47.0,
         "cpm": 42.83,
         "ctr": 0.0299,
         "cpc": 1.43,
@@ -226,10 +295,10 @@
         "cpic": null,
         "vischk": 0.0,
         "convchk": null,
-        "convlp": 0.0,
-        "cac": null,
-        "roas": 0.0,
-        "ticket": null
+        "convlp": 0.0233,
+        "cac": 83.23,
+        "roas": 0.56,
+        "ticket": 47.0
       },
       "ads": {
         "gasto": 83.23,
@@ -237,8 +306,8 @@
         "cliques": 58.0,
         "pv": 43.0,
         "ck": 0.0,
-        "vendas": 0,
-        "fat": 0.0,
+        "vendas": 1,
+        "fat": 47.0,
         "cpm": 42.83,
         "ctr": 0.0299,
         "cpc": 1.43,
@@ -247,10 +316,10 @@
         "cpic": null,
         "vischk": 0.0,
         "convchk": null,
-        "convlp": 0.0,
-        "cac": null,
-        "roas": 0.0,
-        "ticket": null
+        "convlp": 0.0233,
+        "cac": 83.23,
+        "roas": 0.56,
+        "ticket": 47.0
       },
       "campanhas": [
         {
@@ -274,19 +343,41 @@
           "cac": null,
           "roas": 0.0,
           "ticket": null
+        },
+        {
+          "nome": "PCA | E4-VEN | P2-FRIO | ABO | 2026-10-22 | Aberto ADV",
+          "gasto": 0.0,
+          "impr": 0.0,
+          "cliques": 0.0,
+          "pv": 0.0,
+          "ck": 0.0,
+          "vendas": 1,
+          "fat": 47.0,
+          "cpm": null,
+          "ctr": null,
+          "cpc": null,
+          "cpv": null,
+          "cr": null,
+          "cpic": null,
+          "vischk": null,
+          "convchk": null,
+          "convlp": null,
+          "cac": 0.0,
+          "roas": null,
+          "ticket": 47.0
         }
       ],
       "top_anuncios": [
         {
-          "nome": "AD01",
-          "gasto": 15.76,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
           "nome": "AD02",
           "gasto": 9.65,
+          "vendas": 1,
+          "cac": 9.65,
+          "roas": 4.87
+        },
+        {
+          "nome": "AD01",
+          "gasto": 15.76,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
@@ -302,16 +393,16 @@
       "piores_anuncios": []
     },
     "30d": {
-      "de": "2026-10-04",
-      "ate": "2026-11-02",
+      "de": "2026-10-05",
+      "ate": "2026-11-03",
       "total": {
         "gasto": 83.23,
         "impr": 1943.0,
         "cliques": 58.0,
         "pv": 43.0,
         "ck": 0.0,
-        "vendas": 0,
-        "fat": 0.0,
+        "vendas": 1,
+        "fat": 47.0,
         "cpm": 42.83,
         "ctr": 0.0299,
         "cpc": 1.43,
@@ -320,10 +411,10 @@
         "cpic": null,
         "vischk": 0.0,
         "convchk": null,
-        "convlp": 0.0,
-        "cac": null,
-        "roas": 0.0,
-        "ticket": null
+        "convlp": 0.0233,
+        "cac": 83.23,
+        "roas": 0.56,
+        "ticket": 47.0
       },
       "ads": {
         "gasto": 83.23,
@@ -331,8 +422,8 @@
         "cliques": 58.0,
         "pv": 43.0,
         "ck": 0.0,
-        "vendas": 0,
-        "fat": 0.0,
+        "vendas": 1,
+        "fat": 47.0,
         "cpm": 42.83,
         "ctr": 0.0299,
         "cpc": 1.43,
@@ -341,10 +432,10 @@
         "cpic": null,
         "vischk": 0.0,
         "convchk": null,
-        "convlp": 0.0,
-        "cac": null,
-        "roas": 0.0,
-        "ticket": null
+        "convlp": 0.0233,
+        "cac": 83.23,
+        "roas": 0.56,
+        "ticket": 47.0
       },
       "campanhas": [
         {
@@ -368,19 +459,41 @@
           "cac": null,
           "roas": 0.0,
           "ticket": null
+        },
+        {
+          "nome": "PCA | E4-VEN | P2-FRIO | ABO | 2026-10-22 | Aberto ADV",
+          "gasto": 0.0,
+          "impr": 0.0,
+          "cliques": 0.0,
+          "pv": 0.0,
+          "ck": 0.0,
+          "vendas": 1,
+          "fat": 47.0,
+          "cpm": null,
+          "ctr": null,
+          "cpc": null,
+          "cpv": null,
+          "cr": null,
+          "cpic": null,
+          "vischk": null,
+          "convchk": null,
+          "convlp": null,
+          "cac": 0.0,
+          "roas": null,
+          "ticket": 47.0
         }
       ],
       "top_anuncios": [
         {
-          "nome": "AD01",
-          "gasto": 15.76,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
           "nome": "AD02",
           "gasto": 9.65,
+          "vendas": 1,
+          "cac": 9.65,
+          "roas": 4.87
+        },
+        {
+          "nome": "AD01",
+          "gasto": 15.76,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
@@ -397,15 +510,15 @@
     },
     "mes": {
       "de": "2026-11-01",
-      "ate": "2026-11-02",
+      "ate": "2026-11-03",
       "total": {
         "gasto": 0.0,
         "impr": 0.0,
         "cliques": 0.0,
         "pv": 0.0,
         "ck": 0.0,
-        "vendas": 0,
-        "fat": 0.0,
+        "vendas": 1,
+        "fat": 47.0,
         "cpm": null,
         "ctr": null,
         "cpc": null,
@@ -415,9 +528,9 @@
         "vischk": null,
         "convchk": null,
         "convlp": null,
-        "cac": null,
+        "cac": 0.0,
         "roas": null,
-        "ticket": null
+        "ticket": 47.0
       },
       "ads": {
         "gasto": 0.0,
@@ -425,8 +538,8 @@
         "cliques": 0.0,
         "pv": 0.0,
         "ck": 0.0,
-        "vendas": 0,
-        "fat": 0.0,
+        "vendas": 1,
+        "fat": 47.0,
         "cpm": null,
         "ctr": null,
         "cpc": null,
@@ -436,11 +549,34 @@
         "vischk": null,
         "convchk": null,
         "convlp": null,
-        "cac": null,
+        "cac": 0.0,
         "roas": null,
-        "ticket": null
+        "ticket": 47.0
       },
-      "campanhas": [],
+      "campanhas": [
+        {
+          "nome": "PCA | E4-VEN | P2-FRIO | ABO | 2026-10-22 | Aberto ADV",
+          "gasto": 0.0,
+          "impr": 0.0,
+          "cliques": 0.0,
+          "pv": 0.0,
+          "ck": 0.0,
+          "vendas": 1,
+          "fat": 47.0,
+          "cpm": null,
+          "ctr": null,
+          "cpc": null,
+          "cpv": null,
+          "cr": null,
+          "cpic": null,
+          "vischk": null,
+          "convchk": null,
+          "convlp": null,
+          "cac": 0.0,
+          "roas": null,
+          "ticket": 47.0
+        }
+      ],
       "top_anuncios": [],
       "piores_anuncios": []
     },
@@ -540,15 +676,15 @@
     },
     "todo": {
       "de": "2026-10-22",
-      "ate": "2026-10-23",
+      "ate": "2026-11-02",
       "total": {
         "gasto": 83.23,
         "impr": 1943.0,
         "cliques": 58.0,
         "pv": 43.0,
         "ck": 0.0,
-        "vendas": 0,
-        "fat": 0.0,
+        "vendas": 1,
+        "fat": 47.0,
         "cpm": 42.83,
         "ctr": 0.0299,
         "cpc": 1.43,
@@ -557,10 +693,10 @@
         "cpic": null,
         "vischk": 0.0,
         "convchk": null,
-        "convlp": 0.0,
-        "cac": null,
-        "roas": 0.0,
-        "ticket": null
+        "convlp": 0.0233,
+        "cac": 83.23,
+        "roas": 0.56,
+        "ticket": 47.0
       },
       "ads": {
         "gasto": 83.23,
@@ -568,8 +704,8 @@
         "cliques": 58.0,
         "pv": 43.0,
         "ck": 0.0,
-        "vendas": 0,
-        "fat": 0.0,
+        "vendas": 1,
+        "fat": 47.0,
         "cpm": 42.83,
         "ctr": 0.0299,
         "cpc": 1.43,
@@ -578,10 +714,10 @@
         "cpic": null,
         "vischk": 0.0,
         "convchk": null,
-        "convlp": 0.0,
-        "cac": null,
-        "roas": 0.0,
-        "ticket": null
+        "convlp": 0.0233,
+        "cac": 83.23,
+        "roas": 0.56,
+        "ticket": 47.0
       },
       "campanhas": [
         {
@@ -605,19 +741,41 @@
           "cac": null,
           "roas": 0.0,
           "ticket": null
+        },
+        {
+          "nome": "PCA | E4-VEN | P2-FRIO | ABO | 2026-10-22 | Aberto ADV",
+          "gasto": 0.0,
+          "impr": 0.0,
+          "cliques": 0.0,
+          "pv": 0.0,
+          "ck": 0.0,
+          "vendas": 1,
+          "fat": 47.0,
+          "cpm": null,
+          "ctr": null,
+          "cpc": null,
+          "cpv": null,
+          "cr": null,
+          "cpic": null,
+          "vischk": null,
+          "convchk": null,
+          "convlp": null,
+          "cac": 0.0,
+          "roas": null,
+          "ticket": 47.0
         }
       ],
       "top_anuncios": [
         {
-          "nome": "AD01",
-          "gasto": 15.76,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
           "nome": "AD02",
           "gasto": 9.65,
+          "vendas": 1,
+          "cac": 9.65,
+          "roas": 4.87
+        },
+        {
+          "nome": "AD01",
+          "gasto": 15.76,
           "vendas": 0,
           "cac": null,
           "roas": 0.0

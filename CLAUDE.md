@@ -88,7 +88,7 @@ preencha também `SPREADSHEET_ID_SALES` em `build/config.py`.
 
 | Fonte | Planilha (`SPREADSHEET_ID*`) | gid | Aba |
 |-------|------------------------------|-----|-----|
-| **Meta Ads** | `1YI7XEWZP528Ru_MTLr6UtHnhc1Hfi6XAi-h3dA4WO7M` | `883396410` | Página2 |
+| **Meta Ads** | `1YI7XEWZP528Ru_MTLr6UtHnhc1Hfi6XAi-h3dA4WO7M` | `883396410` | Queries (antiga "Página2", renomeada em 03/11/2026) |
 | **Compradores** | (mesma planilha) | `1497298595` | Vendas PCA |
 
 **Colunas reais — Meta Ads** (o `header_index` do `build.py` casa por nome, a

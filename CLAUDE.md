@@ -109,11 +109,12 @@ Verificado em 23/10/2026:
   `build.py` usa só o **último evento de cada Order ID** e só conta status pago/aprovado
   (`COUNT_ALL_AS_PAID = False`; `is_paid` rejeita pendente/aguardando/cancelado/reembolso/
   chargeback/expirado antes de aceitar pago/aprovado/completo).
-- Em 23/10/2026 a aba **ainda não tinha nenhuma venda** — por isso o nome real do produto
-  e a coluna UTM do anúncio **não puderam ser conferidos**. Na 1ª venda, confirmar
-  `MAIN_PRODUCT_PREFIX` e `AD_UTM_COLUMN` (problema conhecido #10). Enquanto nenhum
-  produto casar com o prefixo, `MAIN_PRODUCT_FALLBACK_ALL = True` conta todo produto
-  aprovado como venda principal.
+- **Confirmado em 16/11/2026** com as 4 primeiras vendas: produto
+  `PCA - PLANO DE CAPTAÇÃO DE CLIENTES NA ADVOCACIA` (casa com o prefixo `pca`),
+  evento `order_approved` / status `paid`, `utm_source = meta-ads`,
+  `utm_content` = Ad Name (`AD02`, `AD04`, `AD06`), `utm_term` = **ID** do conjunto
+  (número, não casa com nada do Meta). As 4 casaram com campanha+anúncio reais do Meta.
+  `MAIN_PRODUCT_FALLBACK_ALL = True` só age se nenhum produto casar com o prefixo.
 - **Não usar** a aba **Log** (log técnico do webhook: Quando · Status · Parametros · Corpo).
 - A aba Meta Ads não tem coluna de permalink do criativo (Top/Piores anúncios sem link).
 
@@ -132,7 +133,7 @@ ConvCHK (Vendas/Checkouts) · Faturamento · ROAS (Faturamento/Gasto) · Ticket 
 
 ### Produto principal / atribuição
 - **Produto principal** = `MAIN_PRODUCT_PREFIX` (definido em `build/config.py`) —
-  neste cliente: ainda sem venda para conferir — prefixos `pca` / `plano de captacao` (ver "Pontos de atenção").
+  neste cliente: `PCA - PLANO DE CAPTAÇÃO DE CLIENTES NA ADVOCACIA` (prefixo `pca`).
   Base de **Vendas / CAC / ConvCHK / Ticket**.
 - **Faturamento / ROAS** = soma de **todos os produtos** do funil (orderbumps/upsells).
 - Uma venda entra no funil se: é o produto principal **OU** a combinação
@@ -158,7 +159,7 @@ Toggle ON aplica o `TAX_FACTOR` (definido em `build/config.py`) sobre os custos 
 - Nomenclatura de anúncio: `AD01`, `AD02`, `AD03`…
 - Mapeamento UTM → Meta neste cliente (verificado nos dados):
   `utm_campaign → Campaign Name` · `utm_medium → Ad Set Name` ·
-  `utm_content → Ad Name` (padrão; a confirmar na 1ª venda).
+  `utm_content → Ad Name` (confirmado em 16/11/2026).
 
 O match com o Meta (campo `meta`, usado pela aba Meta Ads) exige `utm_campaign` +
 a coluna de `AD_UTM_COLUMN` batendo com uma linha real do Meta; quando casa, a venda

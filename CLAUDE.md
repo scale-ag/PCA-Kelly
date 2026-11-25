@@ -88,8 +88,8 @@ preencha também `SPREADSHEET_ID_SALES` em `build/config.py`.
 
 | Fonte | Planilha (`SPREADSHEET_ID*`) | gid | Aba |
 |-------|------------------------------|-----|-----|
-| **Meta Ads** | `1YI7XEWZP528Ru_MTLr6UtHnhc1Hfi6XAi-h3dA4WO7M` | `883396410` | Queries (antiga "Página2", renomeada em 03/11/2026) |
-| **Compradores** | (mesma planilha) | `1497298595` | Vendas PCA |
+| **Meta Ads** | `1WVOmReoXYh3-1WHOCIABMQ9OU-HX3DuOiizaj5Zb2lA` (planilha nova, desde 25/11/2026) | `1287551375` | Queries |
+| **Compradores** | `1YI7XEWZP528Ru_MTLr6UtHnhc1Hfi6XAi-h3dA4WO7M` (`SPREADSHEET_ID_SALES`, planilha antiga) | `1497298595` | Vendas PCA |
 
 **Colunas reais — Meta Ads** (o `header_index` do `build.py` casa por nome, a
 ordem não importa):
@@ -115,6 +115,11 @@ Verificado em 23/10/2026:
   `utm_content` = Ad Name (`AD02`, `AD04`, `AD06`), `utm_term` = **ID** do conjunto
   (número, não casa com nada do Meta). As 4 casaram com campanha+anúncio reais do Meta.
   `MAIN_PRODUCT_FALLBACK_ALL = True` só age se nenhum produto casar com o prefixo.
+- **25/11/2026:** a aba Queries da planilha antiga parou de atualizar (último dia 23/11,
+  incompleto). O Meta Ads passou a vir de uma **planilha nova** (só a aba Queries
+  serve; as abas Vendas PCA/Log de lá estão vazias). Conferido: o gasto diário bate com
+  a planilha antiga em todos os dias em comum, exceto 23/11 (antiga parcial). A ordem
+  das colunas mudou (Amount Spent é a 2ª) — o `header_index` casa por nome.
 - **Não usar** a aba **Log** (log técnico do webhook: Quando · Status · Parametros · Corpo).
 - A aba Meta Ads não tem coluna de permalink do criativo (Top/Piores anúncios sem link).
 

@@ -24,11 +24,12 @@ from __future__ import annotations
 # GID_META / GID_SALES: o número depois de "gid=" na URL de cada aba.
 # A planilha precisa estar com o link público em modo "Qualquer pessoa com
 # o link pode visualizar" (o build lê via export CSV, SOMENTE LEITURA).
-SPREADSHEET_ID = "1YI7XEWZP528Ru_MTLr6UtHnhc1Hfi6XAi-h3dA4WO7M"  # planilha única (Vendas PCA · Log · Queries)
+SPREADSHEET_ID = "1WVOmReoXYh3-1WHOCIABMQ9OU-HX3DuOiizaj5Zb2lA"  # planilha nova só do Meta Ads (aba Queries) — desde 25/11/2026
 # Opcional: se a lista de Compradores estiver em OUTRA planilha, coloque o ID
 # dela aqui. Vazio = Compradores na mesma planilha do Meta Ads (padrão).
-SPREADSHEET_ID_SALES = ""
-GID_META = "883396410"    # aba "Queries" (export do Meta Ads; antes se chamava "Página2")
+# PCA: Vendas continuam na planilha antiga (aba Vendas PCA; a aba Queries de lá foi abandonada).
+SPREADSHEET_ID_SALES = "1YI7XEWZP528Ru_MTLr6UtHnhc1Hfi6XAi-h3dA4WO7M"
+GID_META = "1287551375"   # aba "Queries" da planilha NOVA (export do Meta Ads)
 GID_SALES = "1497298595"  # aba "Vendas PCA" (webhook da plataforma) — NÃO usar "Log"
 
 # ==========================================================================
